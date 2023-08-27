@@ -5,6 +5,7 @@ def re_rename():
     ahk.key_press('F2')
 
 def revit_default_option():
+    ahk.send_input("gg")
     ahk.key_press('TAB')
     ahk.key_press('TAB')
     ahk.key_press('ENTER')
